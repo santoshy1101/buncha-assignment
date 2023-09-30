@@ -1,0 +1,13 @@
+.product_sidebar {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 220px;
+  /* border: 2px solid red; */
+}
+@media only screen and (max-width: 992px) {
+    .product_sidebar{
+        margin-left: 0px;
+        width: 100vw;
+    }
+  }

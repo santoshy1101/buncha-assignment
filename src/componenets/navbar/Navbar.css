@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #ffe475;
+    color: black;
+    padding:0px 20px ;
+    position: fixed;
+    width: 96vw;
+    z-index: 10;
+   top: 0%;
+}
+.navbar .nav_logos,span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nav_logos{
+column-gap: 30px;
+font-weight: 700;
+}
+.navbar span{
+    column-gap: 10px;
+    padding: 0px 10px;
+    border-radius: 50px;
+background-color:#fcfcfc;
+}
