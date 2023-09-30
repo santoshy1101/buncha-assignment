@@ -1,5 +1,5 @@
 import React from 'react'
-import "./navbar.css";
+import "./Navbar.css";
 import { FaFileCsv,FaShoppingCart } from 'react-icons/fa';
 import { useSelector, useDispatch } from 'react-redux';
 const Navbar = () => {
